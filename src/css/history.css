@@ -1,0 +1,101 @@
+:root {
+    --main-color: #9b6615;
+    --black: #13131a;
+    --bg: #24221e;
+    --border: 0.1rem solid #9b6615;
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+    font-family: "Kanit", sans-serif;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+section {
+    padding: 2rem 2rem;
+    margin: 0 auto;
+    max-width: 1220px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    background-color: var(--bg);
+}
+
+.header section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.navbar a {
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+    border-bottom: var(--border);
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+}
+
+.icons img {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.container-image img {
+    width: 800px;
+    height: auto;
+    padding: 50px;
+}
+
+.history .row .content {
+    padding: 2rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+.history .row .content p {
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+footer {
+    height: 3vh;
+    font-size: 1.5rem;
+    color: #9b6615;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    background-color: #1e1c18;
+    bottom: 0;
+    width: 100%;
+}
